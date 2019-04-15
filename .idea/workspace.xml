@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55a4bcfe-b97a-4b30-a6b8-bd7d463725c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/KennedyJumpstart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/02-guess-number-app/you_try/guessNumberMe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,18 +14,32 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/01_hello_world/you_try/HelloWorldMe.py">
+        <entry file="file://$PROJECT_DIR$/apps/02-guess-number-app/you_try/guessNumberMe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/apps/02-guess-number-app/you_try/guessNumberMe.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
@@ -54,13 +66,20 @@
               <item name="KennedyJumpstart" type="b2602c69:ProjectViewProjectNode" />
               <item name="KennedyJumpstart" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="01_hello_world" type="462c0819:PsiDirectoryNode" />
+              <item name="02-guess-number-app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KennedyJumpstart" type="b2602c69:ProjectViewProjectNode" />
               <item name="KennedyJumpstart" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="01_hello_world" type="462c0819:PsiDirectoryNode" />
+              <item name="02-guess-number-app" type="462c0819:PsiDirectoryNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KennedyJumpstart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KennedyJumpstart" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="02-guess-number-app" type="462c0819:PsiDirectoryNode" />
               <item name="you_try" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -87,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.guessNumberMe">
     <configuration name="HelloWorldMe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="KennedyJumpstart" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,8 +128,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="guessNumberMe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="KennedyJumpstart" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/02-guess-number-app/you_try" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/02-guess-number-app/you_try/guessNumberMe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.guessNumberMe" />
         <item itemvalue="Python.HelloWorldMe" />
       </list>
     </recent_temporary>
@@ -130,6 +171,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496464" />
@@ -140,7 +182,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32971507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32971507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -153,8 +195,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apps/01_hello_world/you_try/HelloWorldMe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="45">
+          <caret line="3" column="12" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/02-guess-number-app/you_try/guessNumberMe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
