@@ -8,6 +8,7 @@ print('------------------------------')
 print()
 
 number = random.randint(0, 100)
+guess = -1
 
 while True:
     guess = input('Guess a number between 0 and 100: ')
