@@ -1,6 +1,9 @@
 import datetime
 
 
+# TODO: Testaan todo-toimintoa. Näkyykö tämätodo-listassa?
+
+
 def print_header():
     print('--------------------------------------')
     print('            BIRTHDAY APP')
@@ -26,7 +29,7 @@ def compute_days_between_dates(original_date, target_date):
 
 def print_birthday_information(days):
     if days < 0:
-        print("Syntymäpäiväsi oli {} päivää sitten tänä vuonna.". format(-days))
+        print("Syntymäpäiväsi oli {} päivää sitten tänä vuonna.".format(-days))
     elif days > 0:
         print("Syntymäpäiväsi on {} päivän päästä tänä vuonna.".format(days))
     else:
@@ -38,7 +41,7 @@ def main():
     bday = get_birthday_from_user()
     today = datetime.date.today()
     number_of_days = compute_days_between_dates(bday, today)
-    print(number_of_days)
     print_birthday_information(number_of_days)
+
 
 main()
