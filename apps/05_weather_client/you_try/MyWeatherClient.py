@@ -38,11 +38,28 @@ def get_weather_from_html(html):
     #  weatherConditionCss = '.condition-icon'
 
     soup = bs4.BeautifulSoup(html, 'html.parser')
+    loc = soup.find(class_='region-content-header').find('h1').get_text()
+    condition = soup.find(class_='condition-icon').get_text()
+    temp = soup.find(class_='wu-unit-temperature').find(class_='wu-value').get_text()
+    scale = soup.find(class_='wu-unit-temperature').find(class_='wu-label').get_text()
     # print(soup) # Testiprinttaus että pyydetty html latautuu.
+# Poistetaan tyhjät rivit:
+    loc = cleanup_text(loc)
+    condition = cleanup_text(condition)
+    temp = cleanup_text(temp)
+    scale = cleanup_text(scale)
+
+    print(condition, temp, scale, loc)
 
 
-def fetch_zip_code():
-    pass
+
+def cleanup_text(text):
+    if not text:
+        return text
+
+    text = text.strip()
+    return text
+
 
 
 def weather_info():
