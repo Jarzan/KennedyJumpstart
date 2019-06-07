@@ -1,16 +1,31 @@
+import collections
+
 import requests
 import bs4
 
+WeatherReport = collections.namedtuple('WeatherReport', 'cond, temp, scale, loc')
 
 def main():
+
+    #t = 1, 7, 'cat', [1, 2, 3]
+    #print(t)
+    #n1, n2, s, l = t
+    #print(n1, n2, s, l)
     #  print the header
     print_the_header()
     #  get zip code from user
     postinumero = input('Mille postinumerolle haluat sääennusteen? (01860)')
     html = get_html_from_web(postinumero)
+    report = get_weather_from_html(html)
     #  parse the html
-    get_weather_from_html(html)
     #  display the forecast
+
+    print('Paikallinen lämpötila {} on {} {} ja ilma on {}'.format(
+        report[3],
+        report[1],
+        report[2],
+        report[0]
+    ))
 
 
 def print_the_header():
@@ -49,7 +64,9 @@ def get_weather_from_html(html):
     temp = cleanup_text(temp)
     scale = cleanup_text(scale)
 
-    print(condition, temp, scale, loc)
+    # print(condition, temp, scale, loc)
+
+    return condition, temp, scale, loc
 
 
 
