@@ -7,10 +7,10 @@ WeatherReport = collections.namedtuple('WeatherReport', 'cond, temp, scale, loc'
 
 def main():
 
-    #t = 1, 7, 'cat', [1, 2, 3]
+    # t = 1, 7, 'cat', [1, 2, 3]
     #print(t)
-    #n1, n2, s, l = t
-    #print(n1, n2, s, l)
+    # n1, n2, s, l = t
+    # print(n1, n2, s, l)
     #  print the header
     print_the_header()
     #  get zip code from user
@@ -21,10 +21,10 @@ def main():
     #  display the forecast
 
     print('Paikallinen lämpötila {} on {} {} ja ilma on {}'.format(
-        report[3],
-        report[1],
-        report[2],
-        report[0]
+        report.loc,
+        report.temp,
+        report.scale,
+        report.cond
     ))
 
 
@@ -66,7 +66,8 @@ def get_weather_from_html(html):
 
     # print(condition, temp, scale, loc)
 
-    return condition, temp, scale, loc
+    report = WeatherReport(cond=condition, temp=temp, scale=scale, loc=loc)
+    return report
 
 
 
