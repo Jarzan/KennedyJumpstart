@@ -5,7 +5,8 @@ import requests
 
 
 def get_cat(folder, name):
-    url = 'http://consuming_python_services-api.azurewebsites.net/cats/random'
+    url = 'http://consuming-python-services-api.azurewebsites.net/cats/random'
+    #
     data = get_data_from_url(url)
     #  Save the cat image to a folder:
     save_image(folder, name, data)
@@ -14,7 +15,7 @@ def get_cat(folder, name):
 def get_data_from_url(url):
     """Let's use Requests package from PyPi to download
     the data from this url"""
-    response = requests.get(url)
+    response = requests.get(url, stream=True)
     #  raw=binary stream of data that we want to work with:
     return response.raw
 
