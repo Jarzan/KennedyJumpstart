@@ -26,7 +26,7 @@ def game_loop():
 
     hero = Wizard('Gandolf', 75)
 
-    print(creatures)
+    # print(creatures)
 
 
     while True:
@@ -38,7 +38,7 @@ def game_loop():
 
         cmd = input('Do you [a]ttack, [r]unaway, or [l]ook around? ')
         if cmd == 'a':
-            print('attack')
+            hero.attack(active_creature)
         elif cmd == 'r':
             print('runaway')
         elif cmd == 'l':

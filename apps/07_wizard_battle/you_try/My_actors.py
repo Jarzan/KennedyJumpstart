@@ -5,8 +5,10 @@ class Wizard:
         self.name = name
         self.level = level
     #  Create the behaviour methods:
-    def attack(self, other_creature):
-        pass
+    def attack(self, creature):
+        print('The wizard {} attacks {}'.format(
+            self.name, creature.name
+        ))
 
 
 class Creature:
