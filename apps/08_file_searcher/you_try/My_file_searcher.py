@@ -1,5 +1,7 @@
 import os
+import collections
 
+SearchResult = collections.namedtuple('SearchResult', 'file, line, text')
 
 def main():
     print_header()
@@ -16,7 +18,12 @@ def main():
     matches = search_folders(folder, text)
 
     for m in matches:
-        print(m)
+        # print(m)
+        print('------------ MATCH -----------------')
+        print('file: ' + m.file)
+        print('line: {}'.format(m.line))
+        print('match: ' + m.text.strip())
+        print()
 
 
 def print_header():
@@ -52,13 +59,15 @@ def search_folders(folder, text):
 
     for item in items:
         full_item = os.path.join(folder, item)
-        # Jos item on kansio, jatka looppaamista, eli:
+        # Jos item on kansio, jatka looppaamista, eli contunue.
+        # MUTTA: Muutimme koodia siten että alikansioita haetaan myöskin "recursively":
         if os.path.isdir(full_item):
-            continue
-
-        matches = search_file(full_item, text)
-        # With collection of matches you need to add to [] with extend()-method instead of append()-method:
-        all_matches.extend(matches)
+            matches = search_folders(full_item, text)
+            all_matches.extend(matches)
+        else:
+            matches = search_file(full_item, text)
+            # With collection of matches you need to add to [] with extend()-method instead of append()-method:
+            all_matches.extend(matches)
 
     return all_matches
 
@@ -67,12 +76,15 @@ def search_file(filename, search_text):
     matches = []
     # with open()-komennolla varmistetaan että file suljetaan avaamisen jälkeen:
     # Avataan file ja luetaan filename tekstinä
-    with open(filename, 'r', encoding='utf-8') as fin:
+    with open(filename, 'r', encoding='ISO-8859-1') as fin:
+        line_num = 0
         # Tekstifilen rivien iteratiivinen luku onko teksti riveillä:
         for line in fin:
+            line_num += 1
             # find()-method palauttaa -1 mikäli ei mätsiä:
             if line.lower().find(search_text) >= 0:
-                matches.append(line)
+                m = SearchResult(line=line_num, file=filename, text=line)
+                matches.append(m)
 
         return matches
 

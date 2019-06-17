@@ -77,8 +77,8 @@ def search_folders(folder, text):
 
 
 def search_file(filename, search_text):
-    # matches = []
-    with open(filename, 'r', encoding='utf-8') as fin:
+    matches = []
+    with open(filename, 'r', encoding='ISO-8859-1') as fin: # open('u.item', encoding = "ISO-8859-1")
 
         line_num = 0
         for line in fin:
