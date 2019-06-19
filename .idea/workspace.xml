@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55a4bcfe-b97a-4b30-a6b8-bd7d463725c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/apps/08_file_searcher/you_try/My_file_searcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/08_file_searcher/you_try/My_file_searcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/08_file_searcher/you_try/My_play.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/08_file_searcher/you_try/My_play.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/09_real_estate_analyzer/you_try/my_estate_program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,41 +17,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/08_file_searcher/final/program.py">
+        <entry file="file://$PROJECT_DIR$/apps/09_real_estate_analyzer/final/program.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="74" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="74" />
+            <state>
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/08_file_searcher/you_try/My_file_searcher.py">
+        <entry file="file://$PROJECT_DIR$/apps/09_real_estate_analyzer/you_try/my_estate_program.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="264">
+              <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/08_file_searcher/final/play.py">
+        <entry file="file://$PROJECT_DIR$/apps/09_real_estate_analyzer/final/concept_dicts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-547" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/09_real_estate_analyzer/final/data_types.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/08_file_searcher/you_try/My_play.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/apps/09_real_estate_analyzer/final/statistics_standin_for_py2.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -84,6 +86,7 @@
         <option value="$PROJECT_DIR$/apps/08_file_searcher/final/program.py" />
         <option value="$PROJECT_DIR$/apps/08_file_searcher/you_try/My_play.py" />
         <option value="$PROJECT_DIR$/apps/08_file_searcher/you_try/My_file_searcher.py" />
+        <option value="$PROJECT_DIR$/apps/09_real_estate_analyzer/you_try/my_estate_program.py" />
       </list>
     </option>
   </component>
@@ -98,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,27 +118,26 @@
               <item name="KennedyJumpstart" type="b2602c69:ProjectViewProjectNode" />
               <item name="KennedyJumpstart" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="08_file_searcher" type="462c0819:PsiDirectoryNode" />
+              <item name="09_real_estate_analyzer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KennedyJumpstart" type="b2602c69:ProjectViewProjectNode" />
               <item name="KennedyJumpstart" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="08_file_searcher" type="462c0819:PsiDirectoryNode" />
+              <item name="09_real_estate_analyzer" type="462c0819:PsiDirectoryNode" />
               <item name="final" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KennedyJumpstart" type="b2602c69:ProjectViewProjectNode" />
               <item name="KennedyJumpstart" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="08_file_searcher" type="462c0819:PsiDirectoryNode" />
+              <item name="09_real_estate_analyzer" type="462c0819:PsiDirectoryNode" />
               <item name="you_try" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
@@ -161,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.My_file_searcher">
+  <component name="RunManager" selected="Python.my_estate_program">
     <configuration name="My_file_searcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="KennedyJumpstart" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,6 +231,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="my_estate_program" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="KennedyJumpstart" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/09_real_estate_analyzer/you_try" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/09_real_estate_analyzer/you_try/my_estate_program.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="program (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="KennedyJumpstart" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,35 +275,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="program" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="KennedyJumpstart" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/06_lolcat_factory/final" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/06_lolcat_factory/final/program.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.my_estate_program" />
         <item itemvalue="Python.My_file_searcher" />
         <item itemvalue="Python.program (1)" />
         <item itemvalue="Python.My_play" />
         <item itemvalue="Python.My_program" />
-        <item itemvalue="Python.program" />
       </list>
     </recent_temporary>
   </component>
@@ -302,11 +305,12 @@
       <workItem from="1560678425367" duration="8157000" />
       <workItem from="1560772261946" duration="4389000" />
       <workItem from="1560853340488" duration="6415000" />
+      <workItem from="1560932991126" duration="8030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46098000" />
+    <option name="totallyTimeSpent" value="54128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,8 +324,8 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67571235" visible="true" weight="0.20317003" />
-      <window_info id="Structure" order="1" sideWeight="0.32428765" side_tool="true" visible="true" weight="0.20317003" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5088195" visible="true" weight="0.20677233" />
+      <window_info id="Structure" order="1" sideWeight="0.49118045" side_tool="true" visible="true" weight="0.20677233" />
       <window_info id="Favorites" order="2" sideWeight="0.5020243" side_tool="true" weight="0.2496464" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
@@ -400,11 +404,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KennedyJumpstart$cat_service.coverage" NAME="cat_service Coverage Results" MODIFIED="1560271996614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/06_lolcat_factory/you_try" />
-    <SUITE FILE_PATH="coverage/KennedyJumpstart$My_file_searcher.coverage" NAME="My_file_searcher Coverage Results" MODIFIED="1560861568364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/08_file_searcher/you_try" />
+    <SUITE FILE_PATH="coverage/KennedyJumpstart$My_file_searcher.coverage" NAME="My_file_searcher Coverage Results" MODIFIED="1560933045350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/08_file_searcher/you_try" />
     <SUITE FILE_PATH="coverage/KennedyJumpstart$My_play.coverage" NAME="My_play Coverage Results" MODIFIED="1560856488336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/08_file_searcher/you_try" />
     <SUITE FILE_PATH="coverage/KennedyJumpstart$program__1_.coverage" NAME="program (1) Coverage Results" MODIFIED="1560861350522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/08_file_searcher/final" />
     <SUITE FILE_PATH="coverage/KennedyJumpstart$program.coverage" NAME="program Coverage Results" MODIFIED="1560354016141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/06_lolcat_factory/final" />
     <SUITE FILE_PATH="coverage/KennedyJumpstart$My_LOLC_program.coverage" NAME="My_LOLC_program Coverage Results" MODIFIED="1560274128094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/06_lolcat_factory/you_try" />
+    <SUITE FILE_PATH="coverage/KennedyJumpstart$my_estate_program.coverage" NAME="my_estate_program Coverage Results" MODIFIED="1560942317575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/09_real_estate_analyzer/you_try" />
     <SUITE FILE_PATH="coverage/KennedyJumpstart$My_program.coverage" NAME="My_program Coverage Results" MODIFIED="1560679319882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/07_wizard_battle/you_try" />
   </component>
   <component name="debuggerHistoryManager">
@@ -598,19 +603,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/08_file_searcher/final/play.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/08_file_searcher/you_try/My_play.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/08_file_searcher/final/program.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
+        <state relative-caret-position="1343">
           <caret line="80" column="74" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="74" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -620,10 +615,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/08_file_searcher/you_try/My_file_searcher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="337">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/08_file_searcher/final/play.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/08_file_searcher/you_try/My_play.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/09_real_estate_analyzer/final/data_types.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/09_real_estate_analyzer/final/statistics_standin_for_py2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/09_real_estate_analyzer/final/concept_dicts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/09_real_estate_analyzer/final/program.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/09_real_estate_analyzer/you_try/SacramentoRealEstateTransactions2008.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/09_real_estate_analyzer/you_try/my_estate_program.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
