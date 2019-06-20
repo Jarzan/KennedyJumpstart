@@ -42,7 +42,7 @@ def load_file(filename):
 
         reader = csv.DictReader(fin)
         for row in reader:
-            print(type(row), row)
+            print(row)
             print('Bed count: {}'.format(row['beds']))
 
         """Tämä ei ole optimaalinen tapa koska saraketieto riippuu indeksistä
