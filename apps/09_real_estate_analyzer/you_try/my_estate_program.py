@@ -1,6 +1,7 @@
 import collections
 import csv
 import os
+from My_data_types import Purchases
 
 
 def main():
@@ -8,7 +9,7 @@ def main():
     filename = get_data_file()
     print(filename)
     data = load_file(filename)
-    # query_data(data)
+    query_data(data)
     # estate_header
     # estate_price
 
@@ -41,9 +42,14 @@ def load_file(filename):
         tiedon lisääminen vaikuta:"""
 
         reader = csv.DictReader(fin)
+        purchases = []
         for row in reader:
-            print(row)
-            print('Bed count: {}'.format(row['beds']))
+            # print(row)
+            # print('Bed count: {}'.format(row['beds']))
+            p = Purchases.create_from_dict(row)
+            purchases.append(p)
+
+        return purchases
 
         """Tämä ei ole optimaalinen tapa koska saraketieto riippuu indeksistä
         joka voi muuttua tiedon lisäämisen yhteydessä:"""
@@ -82,9 +88,29 @@ def load_file(filename):
 #
 #        print(lines[:5])
 
+"""HUOMAA: lambda-metodilla voidaan korvata aiemmin määritetty get_price(p)-funktio
+jolla tuotettiin hintatieto järjestelyä ja halvimman ja kalleimman 
+poimimista varten:"""
 
-#def query_data(data):
-#    pass
+#def get_price(p):
+#    return p.price
+
+
+def query_data(data): #: list[Purchases]):
+
+    # if data was sorted by price:
+    data.sort(key=lambda p: p.price) # lambda p. p on ikään kuin funktioon sijoitettu argumentti
+    # Huomaa myös että p.price on sama kuin korvatun funktion palautusarvo!
+    # most expensive house?
+    high_purchase = data[-1]
+    print('The most expensive house is ${:,} with {} beds and with {} baths.'.format(high_purchase.price, high_purchase.beds, high_purchase.baths))
+    # least expensive house?
+    low_purchase = data[0]
+    print('The least expensive house is ${:,} with {} beds and with {} baths.'.format(low_purchase.price, low_purchase.beds, low_purchase.baths))
+
+    # average price house?
+    # average price of 2 bedroom houses?
+    pass
 
 if __name__ == '__main__':
     main()
