@@ -2,7 +2,7 @@ import collections
 import csv
 import os
 from My_data_types import Purchases
-
+import statistics
 
 def main():
     print_header()
@@ -108,9 +108,42 @@ def query_data(data): #: list[Purchases]):
     low_purchase = data[0]
     print('The least expensive house is ${:,} with {} beds and with {} baths.'.format(low_purchase.price, low_purchase.beds, low_purchase.baths))
 
-    # average price house?
+    # average price house? statistics-modulin mean-metodista:
+
+    #prices = []
+    # for pr in data:
+    #   prices.append(pur.price)
+    # Ylläolevaan looppikoodin voi korvata list comprehensionilla:
+
+    prices = [
+        p.price # projection or items tuplena
+        for p in data # the set to process
+    ]
+
+
+    ave_price = statistics.mean(prices)
+    print("The average home price is ${:,}.".format(int(ave_price)))
     # average price of 2 bedroom houses?
-    pass
+    #prices = []
+    # baths = []
+    #for pur in data:
+    #    if pur.beds == 2:
+    #        prices.append(pur.price)
+    #        baths.append(pur.baths)
+
+    two_bed_homes = [
+        p  # projection or items tuplena
+        for p in data  # the set to process
+        if p.beds == 2 # test/condition
+    ]
+
+# List comprehensives:
+    ave_price = statistics.mean(p.price for p in two_bed_homes)
+    ave_baths = statistics.mean(p.baths for p in two_bed_homes)
+    ave_sqft = statistics.mean(p.sq__ft for p in two_bed_homes)
+
+    print("The average price of a 2-bedroom home is ${:,}, baths={}, sq ft={}.".format(int(ave_price), round(ave_baths, 1), round(ave_sqft, 1)))
+
 
 if __name__ == '__main__':
     main()
