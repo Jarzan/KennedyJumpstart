@@ -130,20 +130,29 @@ def query_data(data): #: list[Purchases]):
     #    if pur.beds == 2:
     #        prices.append(pur.price)
     #        baths.append(pur.baths)
-
-    two_bed_homes = [
+# HUOMAA: List comprehension muutettu Generator expressioniksi korvaamalla [] ():lla + homes-lista
+    two_bed_homes = (
         p  # projection or items tuplena
         for p in data  # the set to process
-        if p.beds == 2 # test/condition
-    ]
+        if announce(p, '2-bedrooms, found {}'.format(p.beds)) and p.beds == 2) # test/condition
+# Tämä lisättiin että voidaan käyttää tehokkaampaa Generator expressionia:
+    homes = []
 
-# List comprehensives:
-    ave_price = statistics.mean(p.price for p in two_bed_homes)
-    ave_baths = statistics.mean(p.baths for p in two_bed_homes)
-    ave_sqft = statistics.mean(p.sq__ft for p in two_bed_homes)
+    for h in two_bed_homes:
+        if len(homes) > 5:
+            break
+        homes.append(h)
 
-    print("The average price of a 2-bedroom home is ${:,}, baths={}, sq ft={}.".format(int(ave_price), round(ave_baths, 1), round(ave_sqft, 1)))
+# HUOMAA: List comprehensionit korvattu Generator expressionilla:
+    ave_price = statistics.mean((announce(p.price, 'price') for p in homes))
+    ave_baths = statistics.mean((p.baths for p in homes))
+    ave_sqft = statistics.mean((p.sq__ft for p in homes))
 
+    print("Average price of a 2-bedroom home is ${:,}, baths={}, sq ft={}.".format(int(ave_price), round(ave_baths, 1), round(ave_sqft, 1)))
+
+def announce(item, msg):
+    print("Pulling item {} for {}".format(item, msg))
+    return item
 
 if __name__ == '__main__':
     main()
