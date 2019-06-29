@@ -1,9 +1,8 @@
 
 
 def main():
-    # print_header()
-    # movie_title()
-    # search_movie
+    print_header()
+    search_event_loop()
 
 
 def print_header():
@@ -13,11 +12,20 @@ def print_header():
     print('')
 
 
-def movie_title():
+def search_event_loop():
+    search = 'ONCE_THROUGH_LOOP'
 
-
-
-def search_movie():
+    while search != 'x': # Tee etsintää niin kauan kunnes käyttäjä painaa 'x' eli exit.
+        search = input('Movie search text (x to exit): ')
+        if search != 'x':
+            results = movie_svc.find_movies(search)
+            print("Found {} results.".format(len(results)))
+            for r in results:
+                print('{} -- {}'.format(
+                    r.year, r.title
+                ))
+            print()
+    print('exiting...')
     # http://movie_service.talkpython.fm/api/search/
 
 
